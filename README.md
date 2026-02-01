@@ -1,5 +1,5 @@
 # data
-CSL-486 Dataset Data Warehouse
+CSL-482 Dataset Data Warehouse
 数据集说明
 
 本仓库提供了一个包含3000张图像的轻量数据集，适用于快速实验、算法验证或教学演示等场景。
