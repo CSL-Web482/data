@@ -26,3 +26,29 @@ CSL-486 Dataset Data Warehouse
 
 许可与引用：
 若使用本数据集（包括其原始或增强版本），请遵循原始数据集的许可协议，并建议在相关工作中注明出处（如DOI链接）。
+# Dataset Description
+
+This repository provides a lightweight dataset containing **3000 images**, suitable for quick experiments, algorithm validation, or teaching demonstrations.
+
+## Dataset Source and Background
+This dataset originates from a large-scale original dataset. Due to the large size of the original dataset, which makes direct storage and distribution inconvenient, we constructed this smaller dataset by uniformly sampling **1 out of every 10 images** from the original set. This allows for lightweight and quick usage.
+
+## Dataset Download
+Depending on your needs, you can choose from the following different versions of the dataset:
+
+- **Small Dataset (Recommended for this repository)**: 3000 images, not augmented, **already split** (train/validation/test)
+  Download link: https://doi.org/10.6084/m9.figshare.31218427
+
+- **Augmented Large Dataset**: 30000 images, augmented, already split
+  Download link: https://doi.org/10.6084/m9.figshare.31220857
+
+- **Original Complete Dataset**: Approximately 30,000+ images, not augmented, not split
+  Download link: https://doi.org/10.6084/m9.figshare.31220788
+
+## Usage Recommendations
+- If you want to quickly run experiments, test pipelines, or conduct preliminary validation, we recommend downloading the **3000-image split dataset**.
+- If you need more data to improve model performance or conduct more comprehensive training, please download the **30000-image augmented dataset**.
+- If you need the most original, unprocessed complete set of images, you can download it via the original dataset link.
+
+## License and Citation
+If you use this dataset (including its original or augmented versions), please follow the license agreement of the original dataset, and it is recommended to cite the source (such as the DOI link) in any related work.
