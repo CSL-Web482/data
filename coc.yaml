@@ -1,0 +1,500 @@
+# YOLO数据集配置文件
+# 自动生成 - 总样本数: 6854
+# 训练集: 5483 (80.0%)
+# 验证集: 1371 (20.0%)
+
+# 数据集根目录
+path: D:\tutu\pic\A\A\datasets
+
+# 数据集路径
+train: images/train   # 训练图片相对路径
+val: images/val       # 验证图片相对路径
+test: images/test     # 测试图片相对路径
+
+# 类别数
+nc: 482
+
+# 类别名称
+names:
+  0: One
+  1: Always
+  2: Ten thousand
+  3: In case
+  4: Three
+  5: Triangle
+  6: Morning
+  7: Go to school
+  8: Go to work
+  9: Down
+  10: Afternoon
+  11: Ugly
+  12: World
+  13: Temporary
+  14: Why
+  15: Crow
+  16: Turtle
+  17: Boring/Dull
+  18: Table tennis
+  19: School bag
+  20: Book
+  21: Buy
+  22: Matter/Thing
+  23: Two
+  24: Twenty
+  25: Five
+  26: Bright
+  27: Relative
+  28: Dear
+  29: Person
+  30: People
+  31: Human
+  32: What
+  33: Servant
+  34: He
+  35: They
+  36: Task
+  37: Rest
+  38: Meeting
+  39: Great
+  40: Position
+  41: Low
+  42: You
+  43: Wa ethnic group
+  44: Menstruation
+  45: Cheap
+  46: Russia
+  47: Confidential
+  48: Protect①
+  49: Protect②
+  50: Guarantee
+  51: Believe/Letter
+  52: Idol
+  53: Occasionally
+  54: By chance
+  55: Overcome
+  56: Rabbit
+  57: Eight
+  58: Eighty
+  59: Public/Male
+  60: Six
+  61: Lanzhou
+  62: Close/Pass
+  63: Care
+  64: Interest
+  65: Soldier
+  66: Farmer
+  67: Cold
+  68: Calm
+  69: Cool
+  70: Out
+  71: Break up
+  72: Liu (surname)
+  73: Interest
+  74: Arrive
+  75: Brake
+  76: Day before yesterday
+  77: Future
+  78: Scissors
+  79: Strength
+  80: Add
+  81: Effort
+  82: Labor
+  83: Bag
+  84: North①
+  85: North②
+  86: Doctor
+  87: Ten
+  88: Sell
+  89: Pumpkin
+  90: Truck
+  91: Harm
+  92: Dangerous
+  93: Hall
+  94: History
+  95: Fierce/Sharp
+  96: Toilet
+  97: Centimeter
+  98: Visit
+  99: Mouth
+  100: Lipstick
+  101: Pitiful
+  102: Taiwan
+  103: Eat
+  104: Take medicine
+  105: Towards
+  106: Sunflower
+  107: Vacuum cleaner
+  108: Stupid/Dull
+  109: Vomit
+  110: Staff/Member
+  111: Coffee
+  112: Cough
+  113: Salty
+  114: Taste
+  115: Ha
+  116: Older brother
+  117: Which
+  118: Cry
+  119: Tang (surname/dynasty)
+  120: Nag
+  121: Long-winded
+  122: Like
+  123: Chew
+  124: Four
+  125: Difficult
+  126: Scarf
+  127: Ground/Land
+  128: Garbage
+  129: Scholar/Soldier
+  130: Summer
+  131: Outside
+  132: Maternal grandfather
+  133: Maternal grandmother
+  134: Granddaughter (daughter's daughter)
+  135: Grandson (daughter's son)
+  136: Feces/Poop
+  137: Weather
+  138: Weather forecast
+  139: Sun
+  140: Disappointed
+  141: Head
+  142: Hair
+  143: Female
+  144: Paternal grandmother
+  145: She
+  146: How
+  147: If
+  148: Mom
+  149: Aunt (father's sister)
+  150: Name
+  151: Committee member
+  152: Wronged
+  153: Entrust
+  154: Ginger (surname/spice)
+  155: Maternal grandmother
+  156: Aunt
+  157: Mother-in-law
+  158: Daughter-in-law
+  159: Peacock
+  160: Filial piety
+  161: Study
+  162: Ningxia
+  163: Safe/Peaceful
+  164: Seat belt①
+  165: Seat belt②
+  166: Complete
+  167: Finish
+  168: Official
+  169: Decide/Determine
+  170: Baby
+  171: Shy
+  172: Home
+  173: Easy
+  174: Lonely
+  175: Search
+  176: Future
+  177: Small
+  178: Child
+  179: Minor Cold (solar term)
+  180: Be careful
+  181: Hour
+  182: Minor Heat (solar term)
+  183: Millet
+  184: Light Snow (solar term)
+  185: Wheat
+  186: Few
+  187: Belong to
+  188: Mountain
+  189: Work/Labor
+  190: Job
+  191: Chocolate
+  192: Difference
+  193: Citizen
+  194: Hope
+  195: Help
+  196: Often
+  197: Hat
+  198: Ordinary
+  199: Usually
+  200: Equal
+  201: Year
+  202: Celebrate
+  203: Bed
+  204: Incorrupt
+  205: Open
+  206: Younger brother
+  207: Weak
+  208: Law
+  209: Lawyer
+  210: WeChat
+  211: Microwave oven
+  212: Breeze
+  213: Emblem/Badge
+  214: Heart
+  215: Endure
+  216: Patience
+  217: Busy
+  218: Personality
+  219: Love (relationship)
+  220: Breath/News
+  221: Emotion/Situation
+  222: Situation
+  223: Cherish
+  224: Comfort
+  225: Regret
+  226: Lazy
+  227: Chengdu
+  228: House
+  229: Fan
+  230: Hit
+  231: Label someone
+  232: Detain
+  233: Disturb
+  234: Criticize
+  235: Nurse
+  236: Report
+  237: Sorry
+  238: Pull
+  239: Lhasa
+  240: Take/Hold
+  241: According to
+  242: Dig
+  243: Rescue
+  244: Volleyball
+  245: Queue/Line up
+  246: Story
+  247: Walk
+  248: Knock
+  249: Organize/Arrange
+  250: Perfunctory
+  251: Square/Method
+  252: Calendar
+  253: Date
+  254: Time difference
+  255: Period
+  256: Time
+  257: Hold one's head high
+  258: Tomorrow
+  259: Star
+  260: Spring
+  261: Yes/Be
+  262: Is it or not
+  263: Evening/Night
+  264: Ordinary
+  265: Cao (surname)
+  266: Friend
+  267: Telescope
+  268: Look forward to
+  269: Wood ear fungus
+  270: Book/Origin
+  271: Witty
+  272: Li (surname/plum)
+  273: Come
+  274: Fruit/Result
+  275: Lemon
+  276: Principal
+  277: Core
+  278: Peach
+  279: Case
+  280: Plum blossom
+  281: Pear
+  282: Check
+  283: Europe
+  284: Ouyang (surname)
+  285: Positive
+  286: Wuhan
+  287: Towel
+  288: Water
+  289: Car
+  290: Sofa
+  291: Hippopotamus
+  292: Law/Method
+  293: Hand sanitizer
+  294: Bath/Shower
+  295: Waste
+  296: Eliminate
+  297: Shower
+  298: Qingming Festival
+  299: Temperature
+  300: Warmth
+  301: Gentle
+  302: Satisfied
+  303: Beautiful
+  304: Macao
+  305: Train
+  306: Enthusiasm
+  307: Lively
+  308: Fry
+  309: Love
+  310: Spouse/Lover
+  311: Dad
+  312: Cow/Ox
+  313: Remember firmly
+  314: Special
+  315: Rhinoceros
+  316: Dog
+  317: Cunning
+  318: Wolf
+  319: Cat
+  320: King
+  321: Play
+  322: Now
+  323: Haircut
+  324: Ideal
+  325: Understand
+  326: Melon
+  327: Sugarcane
+  328: Sweet
+  329: Apply
+  330: Male
+  331: Pain
+  332: Illness/Disease
+  333: White
+  334: Of/Target
+  335: Prison
+  336: Purpose
+  337: Blind
+  338: Look
+  339: Sleep
+  340: Short
+  341: Broken
+  342: Bowl
+  343: Society
+  344: Nerve
+  345: Department
+  346: Secret
+  347: Hollow
+  348: Air conditioner
+  349: Overpass
+  350: Beginning of Winter
+  351: Beginning of Spring
+  352: Beginning of Autumn
+  353: Laugh/Smile
+  354: Stupid
+  355: Wait/And so on
+  356: Answer
+  357: Chopsticks
+  358: Sign in
+  359: Basketball
+  360: Rice
+  361: Sugar
+  362: Glutinous rice
+  363: Tired
+  364: Red
+  365: Paper
+  366: Tennis
+  367: Network
+  368: Online shopping
+  369: Old
+  370: Old person
+  371: Honest
+  372: Teacher
+  373: Boss
+  374: Common people
+  375: Consider
+  376: Exam
+  377: Ear
+  378: Contact
+  379: Meat
+  380: Liver
+  381: Fat
+  382: Beard/Hu
+  383: Brain
+  384: Foot
+  385: Face
+  386: Abdomen
+  387: Comfortable
+  388: Festival
+  389: Cauliflower
+  390: Aged
+  391: Bitter
+  392: Apple
+  393: Lychee
+  394: Medicine
+  395: Lotus
+  396: Lettuce
+  397: Vegetable/Dish
+  398: Radish
+  399: Grape
+  400: Yurt
+  401: Blue
+  402: Lotus root
+  403: Mushroom
+  404: Tiger
+  405: Shrimp
+  406: Mosquito
+  407: Snake
+  408: Frog
+  409: Snail
+  410: Butterfly
+  411: Crab
+  412: Blood
+  413: Socks
+  414: Install/Pack
+  415: West
+  416: Broccoli
+  417: Watermelon
+  418: Tomato
+  419: Zucchini
+  420: Meet
+  421: Police
+  422: Plan
+  423: Think/Consider
+  424: Serious
+  425: Recognize
+  426: Dislike
+  427: Ask for leave
+  428: Read/Study
+  429: Thank you
+  430: Pea
+  431: Elephant
+  432: Get up
+  433: Super/Exceed
+  434: Lie prone
+  435: Run
+  436: Lie down
+  437: Ship
+  438: Soft
+  439: Soft sleeper
+  440: Light
+  441: Lose
+  442: Spicy
+  443: Chili pepper
+  444: Liaoning
+  445: Vast
+  446: Soy sauce
+  447: Cool
+  448: Inside
+  449: Fountain pen
+  450: Money
+  451: Pencil
+  452: Pencil case
+  453: Ah
+  454: Chen (surname)
+  455: Dangerous/Risk
+  456: Difficult
+  457: Zero
+  458: Fog
+  459: Youth
+  460: Quiet
+  461: Lean on
+  462: Shoes
+  463: Stubborn
+  464: Stubborn resistance
+  465: Airplane
+  466: Meal
+  467: Napkin
+  468: Hungry
+  469: Steamed bun
+  470: Fragrant
+  471: Horse
+  472: Scold
+  473: Sorghum
+  474: High-speed rail
+  475: Crocodile
+  476: Bird
+  477: Chicken
+  478: Goose
+  479: Trouble
+  480: Fried dough twist
+  481: Nose
